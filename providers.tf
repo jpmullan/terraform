@@ -8,5 +8,7 @@ terraform {
 }
 
 provider "snowflake" {
-  # Configuration options
+  account                = "blfnoow-dk04897"
+  username               = "JAMES"
+  role                   = "ACCOUNTADMIN"
 }
